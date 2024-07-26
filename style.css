@@ -1,0 +1,269 @@
+*
+{
+    margin: 0px;
+}
+body
+{
+    font-family: "Roboto", sans-serif;
+}
+.heading 
+{
+    background-color: blue;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.online
+{
+    background-color: aqua;
+    width: 150px;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.mail
+{
+    color:white;
+    font-weight: bold;
+}
+.call
+{
+    background-color: red;
+    width: 7%;
+    height: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    color: white;
+}
+.logo > img 
+{
+    margin-left: 50px;
+    height: 100px;
+}
+.phone 
+{
+    color:white;
+    font-weight: bold;
+    margin-right: 50px
+}
+.menu > ul
+{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    list-style-type: none;
+}
+.box
+{
+    display: flex;
+}
+.box1, .box2, .box3, .box4  
+{
+    color: white;
+    height: 200px;
+    width: 33%;
+    text-align: center;
+    padding: 20px;
+    line-height: 25px;
+}
+.box1 > h1, .box2 > h1 , .box3 > h1, .box4 > h1
+{
+    font-size: large;
+}
+.box1 > hr, .box2 > hr , .box3 > hr, .box4 > hr
+{
+    border-color: white;
+    border-width: 2px;
+    background-color: white;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.box1 
+{
+    background-color: blue;
+}
+.box2
+{
+    background-color: rgb(5, 223, 252);
+}
+.box3
+{
+    background-color: rgb(56, 194, 125);
+}
+.box4
+{
+    background-color: rgb(56, 194, 125);
+}
+.contant 
+{
+    display: flex;
+}
+.welcomeimg > img
+{
+    margin: 50px;
+}
+.welcomecontant
+{
+    margin-top: 50px;
+    line-height: 32px;
+}
+.buttons
+{
+    display: flex;
+    margin-top: 20px;
+}
+.button1
+{
+    margin-right: 200px;
+    width: 120px;
+    height: 30px; 
+    background-color: aqua;
+    text-align: center;
+}
+.button2
+{
+    width: 120px;
+    height: 30px; 
+    background-color: aqua;
+    text-align: center;
+}
+.enquirysection
+{
+    background-color: rgb(87, 182, 255);
+    display: flex;
+}
+.unlist
+{
+    color: white;
+    line-height: 40px;
+    width: 500px;
+    font-size: medium;
+    margin-left: 50px;
+}
+.inqinput
+{
+    line-height: 30px;
+    margin-top: 20px;
+    color: white;
+    font-weight: bold;
+    margin-left: 150px;
+}
+.inqinput > input 
+{
+    width: 500px;
+    height: 40px;
+}
+.subbutton
+{
+    margin-top: 20px;
+    background-color: rgb(71, 182, 71);
+    color: white;
+    width: 15%;
+    text-align: center;
+    border-radius: 10px;
+}
+.courseshead
+{
+    background-color: rgb(84, 84, 207);
+    color: white;
+    width: 100%;
+    height: 50%;
+}
+.list
+{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-top: 30px;
+    font-weight: normal;
+    line-height: 60px;
+}
+.courseshead > h3
+{
+    margin-left: 60px;
+    padding-top: 20px;
+}
+.end
+{
+    display: flex;
+    background-color: rgb(181, 220, 207);
+}
+.one > h5
+{
+    margin: 20px;
+    width: 100%;
+}
+.two
+{
+    margin-left: 1000px;
+    justify-content: space-between;
+    height: 20px;
+    width: 120px;
+    margin-top: 20px;
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 80%;
+    height: 90%;
+    object-fit: cover;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .firsthead
+  {
+    margin-left: 50px;
+    margin-bottom: 40px;
+  } 
+  .sechead
+  {
+    margin-left: 50px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+  }
+  .terhead
+  {
+    margin-left: 50px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+  }
